@@ -1,0 +1,14 @@
+article {
+    margin: 100px auto;
+    border-radius: 8px;
+    padding: 50px 30px;
+    background: #FFFFFF;
+}
+
+article h3 {
+    font-size: 4.5vh !important;
+}
+
+article p {
+    font-size: 3vh !important;
+}

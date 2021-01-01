@@ -1,0 +1,109 @@
+.pagination,
+.pagination *,
+.pagination *:before,
+.pagination *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+.pagination {
+  font-size: 8pt;
+  line-height: 1;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  margin: 1em auto !important;
+  padding-left: 25px;
+  text-align: center !important;
+  transition: font-size .2s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+  font-size: 100%;
+  margin: 0;
+  padding: .5em;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 100%;
+  width: auto;
+  border-radius: 3px;
+}
+
+a {
+  font-size: 140%;
+}
+
+a {
+  color: #777;
+  font-size: 100%;
+  padding: .5em;
+}
+
+.pagination a:focus,
+.pagination a:active,
+.pagination a:hover {
+  color: #f60 !important;
+}
+
+.pagination li.current {
+  background: rgba(0, 0, 0, .1)
+}
+
+/* Disabled & Hidden Styles */
+.pagination .disabled,
+.pagination [hidden],
+.pagination [disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+
+@media (min-width: 350px) {
+  .pagination {
+    font-size: 10pt;
+  }
+}
+
+@media (min-width: 500px) {
+  .pagination {
+    font-size: 12pt;
+  }
+}
+
+@media (min-width: 700px) {
+  .pagination {
+    font-size: 14pt;
+  }
+}
+
+@media (min-width: 900px) {
+  .pagination {
+    font-size: 16pt;
+  }
+}
+
+a.pagination__link {
+  text-decoration: none;
+}
+
+
+.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pg-container-2>.pagination {
+  display: block;
+}

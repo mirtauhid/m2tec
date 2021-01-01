@@ -1,0 +1,59 @@
+{
+  "name": "m2tec",
+  "homepage": "http://www.m2tec.ch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "antd": "^4.9.2",
+    "axios": "^0.21.0",
+    "bootstrap": "^5.0.0-beta1",
+    "fuse.js": "^6.4.3",
+    "jquery": "^3.5.1",
+    "react-bootstrap": "^1.4.0",
+    "react-image-magnify": "^2.7.4",
+    "react-js-pagination": "^3.0.3",
+    "react-paginate": "^6.5.0",
+    "react-responsive-carousel": "^3.2.11",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

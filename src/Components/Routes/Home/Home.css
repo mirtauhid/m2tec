@@ -1,0 +1,35 @@
+.carousel {
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgb(211, 209, 209);
+  background: #fff;
+  margin: 0 auto !important;
+}
+
+.carousel-inner>.item {
+  -webkit-transition: 0.9s ease-in-out left;
+  transition: 0.9s ease-in-out left;
+  -webkit-transition: 0.9s, ease-in-out, left;
+  -moz-transition: 0.9s, ease-in-out, left;
+  -o-transition: 0.9s, ease-in-out, left;
+  transition: 0.9s, ease-in-out, left;
+}
+
+.alle-artikel {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.cards-container {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pagination {
+  display: none;
+}

@@ -1,0 +1,171 @@
+.header-container {
+  width: 100%;
+  background: #fff;
+
+}
+
+.header-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 !important;
+}
+
+#nav {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  #logo {
+    display: none;
+  }
+
+  #nav {
+    display: none;
+  }
+}
+
+.header-nav {
+  border-bottom: 1px solid #f7f7f7;
+  background: #ffffff;
+}
+
+.navbar {
+  background: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #9643ED !important;
+}
+
+.header-main {
+  justify-content: center;
+  background: #ffffff;
+  padding: 20px 0px;
+  -webkit-box-shadow: 0 8px 6px -6px #dedede;
+  -moz-box-shadow: 0 8px 6px -6px #dedede;
+  box-shadow: 0 8px 6px -6px #dedede;
+}
+
+
+
+.menu {
+  width: 81vw;
+  max-width: 81vw;
+  height: auto;
+  background: #ffffff;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -13.7%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 1px rgb(230, 229, 229);
+  display: none;
+  padding-top: 0.5vh;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .header-main {
+    display: none;
+  }
+
+  #hide-link {
+    display: block;
+  }
+
+  .search-wrapper-mobile {
+    display: block;
+    width: 99% !important;
+    height: 50px;
+    padding: 0;
+    border-radius: 3px;
+    margin: 0 auto;
+    border: 1px solid#b4b2b2;
+    display: flex;
+    margin-top: 5px;
+  }
+}
+
+.items ul li {
+  list-style: none;
+  margin-top: 0.5vh !important;
+  text-align: left;
+}
+
+.items ul li a:hover {
+  color: #0068f7;
+}
+
+.items ul li h5 {
+  text-decoration: none;
+  color: #232323;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.items ul li h5:hover {
+  color: #0068f7;
+}
+
+.items ul li a {
+  text-decoration: none;
+  color: #232323;
+  font-size: 0.95rem;
+}
+
+.items ul li h5 {
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .hide {
+    display: none;
+  }
+}
+
+.btn.btn-outline-dark {
+  height: 50px;
+}
+
+
+
+
+#mobileNav {
+  display: none;
+}
+
+@media(max-width: 991px) {
+  #mobileNav {
+    display: block;
+  }
+}
+
+.has-search input {
+  background: #ffffff !important;
+}
+
+
+.main {
+  width: 100%;
+  margin: 0px auto;
+  margin-top: -6px;
+}
+
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  padding-top: 4px;
+}

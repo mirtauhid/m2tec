@@ -1,0 +1,344 @@
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-angle-down:before {
+    content: "\f107";
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-top: 0;
+}
+
+ul ul {
+    margin-bottom: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+img {
+    border-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+@media print {
+
+    *,
+    :after,
+    :before {
+        text-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    a:not(.btn) {
+        text-decoration: underline;
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+a {
+    line-height: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+a,
+img {
+    transition: all .3s ease 0s;
+}
+
+:focus {
+    outline: none !important;
+}
+
+a:focus {
+    color: inherit;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: outside none none;
+}
+
+a:hover {
+    color: #a749ff;
+}
+
+.main-menu nav ul {
+    display: block;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.main-menu nav ul li {
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.main-menu nav ul li ul.submenu {
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+    display: block;
+    visibility: hidden;
+    width: 210px;
+    padding: 20px 0 22px;
+    transition: all .5s ease 0s;
+    transform: rotateX(90deg);
+    transform-origin: center top 0;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 7px .5px rgba(0, 0, 0, .15);
+}
+
+.main-menu nav ul li ul.submenu li {
+    display: block;
+    margin-left: 0;
+    padding: 0 20px;
+}
+
+.main-menu nav ul li ul.submenu li a {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px;
+    display: block;
+    padding-top: 0;
+    text-align: left;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.main-menu nav ul li ul.submenu li a:hover {
+    color: #a749ff;
+}
+
+.main-menu nav ul li ul.submenu li a:before {
+    position: absolute;
+    z-index: 999;
+    top: 13px;
+    left: 15px;
+    width: 7px;
+    height: 7px;
+    content: "";
+    transition: all .3s ease-in-out 0s;
+    opacity: 0;
+    border-radius: 50%;
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.main-menu nav ul li ul.submenu li:hover a:before {
+    opacity: 1;
+}
+
+.main-menu nav ul li ul.submenu li:hover a {
+    padding-left: 12px;
+}
+
+.main-menu nav ul li ul.mega-menu {
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+    margin-left: -15vw;
+    min-width: 800px;
+    padding: 20px;
+    transition: all .5s ease 0s;
+    transform: rotateX(90deg);
+    transform-origin: center top 0;
+    text-align: left !important;
+    background-color: #fff;
+    box-shadow: 0 1px 7px -2px rgba(0, 0, 0, .3);
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .main-menu nav ul li ul.mega-menu {
+        left: -75px;
+    }
+}
+
+.main-menu nav ul li ul.mega-menu>li {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin-left: 0;
+    padding: 0;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li.mega-menu-title {
+    float: inherit;
+    width: 100%;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li.mega-menu-title a {
+    font-size: 13.5px;
+    font-weight: 550;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li.mega-menu-title a:before {
+    display: none;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li.mega-menu-title:hover a {
+    padding-left: 0;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li {
+    display: block;
+    float: inherit;
+    padding: 0;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    padding-top: 0;
+    text-align: left;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li a:hover {
+    color: #a749ff;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li a:before {
+    position: absolute;
+    z-index: 999;
+    top: 13px;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    content: "";
+    transition: all .3s ease-in-out 0s;
+    opacity: 0;
+    border-radius: 50%;
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li.mega-menu-img:hover a {
+    padding-left: 0;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li.mega-menu-img a:before {
+    display: none;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li:hover a:before {
+    opacity: 1;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li:hover a {
+    padding-left: 12px;
+}
+
+.main-menu nav ul li ul.mega-menu.mega-menu-padding {
+    padding: 40px 40px 36px;
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .main-menu nav ul li ul.mega-menu.mega-menu-padding {
+        left: 0;
+    }
+}
+
+.main-menu nav ul li:hover>ul.mega-menu,
+.main-menu nav ul li:hover>ul.submenu {
+    visibility: visible;
+    transform: rotateX(0deg);
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .main-menu nav ul li {
+        padding: 0 7px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1365px) {
+    .main-menu nav ul li {
+        padding: 0 10px;
+    }
+}
+
+.main-menu nav ul li>a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 94px;
+    display: inline-block;
+    letter-spacing: .8px;
+    color: #555252;
+}
+
+.main-menu nav ul li>a i {
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    margin-left: 1px;
+}
+
+.main-menu nav ul li:hover a {
+    color: #a749ff;
+}
+
+.stick .main-menu nav ul li a {
+    line-height: 75px;
+}
+
+.header-hm8 .main-menu {
+    padding-bottom: 8px;
+}
+
+.header-hm8 .main-menu nav ul li>a {
+    line-height: 60px;
+}
